@@ -1,0 +1,15 @@
+{
+  "name": "grape-ui-samples-basic",
+  "version": "1.0.0",
+  "description": "GrapeUI samples: Basic",
+  "main": "index.js",
+  "dependencies": {
+    "grape-ui": "^0.0.4",
+    "grape-ui-login": "^1.0.0",
+    "ps-grape": "^1.0.9"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
