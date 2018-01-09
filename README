@@ -1,1 +1,3 @@
-This repository contains a bunch of grape sample apps. Configure config.json
+
+This repository contains a bunch of grape sample apps. Configure your database parameters in config.json (in this directory). 
+
