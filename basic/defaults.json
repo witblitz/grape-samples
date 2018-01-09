@@ -1,7 +1,6 @@
 {
 	"public_directories": ["public/"],
-	"include": ["node_modules/grape-ui/grape_config.json",
-		"node_modules/grape-ui-login/grape_config.json"
-	],
+	"include": ["node_modules/grape-ui/grape_config.json"],
+	"process_name": "grape-sample-basic",
 	"port": 7000
 }
