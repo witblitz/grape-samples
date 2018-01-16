@@ -7,5 +7,6 @@
 	"process_name": "grape-sample-sms",
 	"port": 7000,
 	"nxtsms_username": "hanslombard@gmail.com",
-	"nxtsms_password": "XEG5LX"
+	"nxtsms_password": "XEG5LX",
+	"session_management": true
 }

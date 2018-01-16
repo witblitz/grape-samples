@@ -6,7 +6,8 @@
   "dependencies": {
     "grape-ui": "^0.0.5",
     "ps-grape": "^1.1.0",
-    "grape-sms-server": "*"
+    "grape-sms-server": "*",
+    "grape-nxtsms-provider": "*"
   },
   "devDependencies": {},
   "scripts": {

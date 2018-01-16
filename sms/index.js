@@ -18,7 +18,5 @@ app.on('worker-smsserver', function(def, sms_server) {
 	sms_server.provider = nxtsms;
 });
 
-
 app.start();
-
 
