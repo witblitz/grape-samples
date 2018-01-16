@@ -6,6 +6,8 @@
   "dependencies": {
     "grape-ui": "^0.0.4",
     "grape-ui-login": "^1.0.0",
+    "grape-ui-input-dialog": "*",
+    "grape-ui-dashboard": "*",
     "ps-grape": "^1.0.9"
   },
   "devDependencies": {},
