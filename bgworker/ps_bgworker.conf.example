@@ -1,0 +1,10 @@
+host=localhost				# Database host
+dbname=					# Database name
+user=					# Database user
+port=5432				# Database port
+schema=grape				# Schema in which tables and functions lies
+node=/usr/bin/node			# Path to node 
+workdir=				# Working directory. Scripts are called relative to this directory
+log_to_db=false				# If true, log all notices and messages from process to the database
+schedule_log_dir=bg_process_logs	# If set, schedules will be logged to files in this directory
+logfile=log/ps_bgworker.log		# When forking, stdout and stderr will be redirected here

@@ -1,3 +1,4 @@
 {
+	"superdburi": "pg://hans:hans123@localhost/postgres",
 	"dburi": "pg://hans:hans123@localhost/hans"
 }

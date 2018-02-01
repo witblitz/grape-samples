@@ -1,0 +1,20 @@
+[
+	{
+		"name": "Login",
+		"visible_roles": "guest",
+		"href": "#/grape-ui/login",
+		"pull": "right"
+	},
+	{
+		"name": "Logout",
+		"visible_roles": "all",
+		"href": "#/grape-ui/logout",
+		"pull": "right"
+	},
+	{
+		"name": "Grape Dashboard",
+		"visible_roles": "admin",
+		"href": "#/grape-ui/grape_settings/",
+		"pull": "right"
+	}
+]

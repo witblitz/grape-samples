@@ -1,11 +1,15 @@
 {
-  "name": "grape-ui-samples-basic",
+  "name": "grape-ui-samples-bgworker",
   "version": "1.0.0",
-  "description": "GrapeUI samples: Basic",
+  "description": "GrapeUI samples: BGWorker",
   "main": "index.js",
   "dependencies": {
+    "grape-tools": "^1.0.7",
     "grape-ui": "*",
+    "grape-ui-dashboard": "*",
+    "grape-ui-input-dialog": "*",
     "grape-ui-login": "*",
+    "grape-ui-processes": "^1.0.1",
     "ps-grape": "*"
   },
   "devDependencies": {},

@@ -1,3 +1,11 @@
 
-This repository contains a bunch of grape sample apps. Configure your database parameters in config.json (in this directory). 
+This repository contains a bunch of grape sample apps. Configure your database parameters in config.json (in this directory)
 
+To run an example:
+- Enter the sample's directory
+- Run: npm install
+- Run: grape-db-setup -r -a ../config.json db.manifest
+- Run: node index.js
+- Browse to http://localhost:7000/
+
+The bgworker example needs additional configuratin
