@@ -5,8 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "grape-ui": "*",
-    "ps-grape": "*",
-    "grape-ldap-server": "*"
+    "ps-grape": "^1.1.1"
   },
   "devDependencies": {},
   "scripts": {
