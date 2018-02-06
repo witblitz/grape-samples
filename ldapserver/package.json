@@ -5,7 +5,9 @@
   "main": "index.js",
   "dependencies": {
     "grape-ui": "*",
-    "ps-grape": "^1.1.1"
+    "grape-ui-login": "*",
+    "grape-ui-dashboard": "*",
+    "ps-grape": "*"
   },
   "devDependencies": {},
   "scripts": {

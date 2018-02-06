@@ -1,6 +1,6 @@
 {
 	"username": "User1",
 	"password": "user123",
-	"role_names": ["basic"],
+	"role_names": ["admin"],
 	"fullnames": "User 001"
 }

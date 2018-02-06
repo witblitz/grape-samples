@@ -1,38 +1,18 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
-		<title>Grape LDAP Server</title>
+	<meta charset="utf-8">
+	<title>GrapeUI samples: LDAP Server</title>
+
+	<!-- CSS -->
+	<link href="grape-ui/dist/grape-bundle.css" charset="utf-8" rel="stylesheet" type="text/css" />
+
+	<!-- JS -->
+	<script src="grape-ui/dist/grape-bundle.js" type="text/javascript" charset="utf-8"></script>
 	</head>
+
 	<body>
-		<h1>Grape LDAP Server</h1>
-		Other servers can connect to this service to authenticate users.
-
-		<table>
-			<tr><td>Recipient (10-digit number):</td><td><input maxlength="10" type="text" id="recipient" /></td></tr>
-			<tr><td>Message:</td><td><input type="text" id="message" /></td></tr>
-			<tr><td></td><td><input type="button" value="Send SMS" onclick="window.send_sms()" /></td></tr>
-		</table>
-		<script type="text/javascript">
-			window.send_sms = function() {
-				var recipient = document.getElementById('recipient').value;
-				var message = document.getElementById('message').value;
-
-				var req = new XMLHttpRequest();
-				req.addEventListener("load", function(evt) {
-					alert("SMS Sent!");
-				});
-				req.addEventListener("error", function(evt) {
-					alert("Error!");
-					console.log(evt);
-				});
-
-				req.open("POST", "/grape/send_sms", true);
-				req.setRequestHeader("Content-type", "application/json");
-				req.send(JSON.stringify({
-					recipient: recipient,
-					message: message,
-					reference: 'ref'
-				}));
-			};
-		</script>
+		Loading...
 	</body>
 </html>
+
