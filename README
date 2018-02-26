@@ -1,4 +1,5 @@
 
+
 This repository contains a bunch of grape sample apps. Configure your database parameters in config.json (in this directory)
 
 To run an example:
@@ -8,4 +9,41 @@ To run an example:
 - Run: node index.js
 - Browse to http://localhost:7000/
 
-The bgworker example needs additional configuratin
+The bgworker example needs additional configuration
+
+
+
+api/
+	Contains a bunch of examples of API calls and validation
+
+basic/
+	Contains a very basic application
+
+bgworker/
+	Contains an application with ps_bgworker modules installed and some sample processes
+
+custom_worker/
+	Contains an application with a custom worker process attached to it [TODO]
+
+dav/
+	Showcase for grape-dav [TODO]
+
+emailer/
+	Showcase for grape's email sending functionality
+
+ldapserver/
+	Showcase for exposing users on LDAP
+
+nodb/
+	Project with no DB
+
+pdfgenerator/
+	Showcase for Grape PDF generation
+
+skel/
+	Skeleton application
+
+sms/
+	Showcase for grape-sms-server
+
+

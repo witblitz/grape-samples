@@ -1,0 +1,11 @@
+
+This is a skeleton grape project.
+
+1. Make sure "dburi" and "superdburi" is set in ../config.json
+2. Run:
+ $ npm install
+ $ grape-db-setup -r -a ../config.json db.manifest
+ $ node index.js
+
+3. Browse to http://localhost:7000/
+

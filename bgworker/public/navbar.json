@@ -15,6 +15,13 @@
 		"name": "Grape Dashboard",
 		"visible_roles": "admin",
 		"href": "#/grape-ui/grape_settings/",
-		"pull": "right"
+		"pull": "left"
+	},
+	{
+		"name": "Processes",
+		"visible_roles": "admin",
+		"href": "#/grape-ui/processes/",
+		"pull": "left"
 	}
+
 ]
