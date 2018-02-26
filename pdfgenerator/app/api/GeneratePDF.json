@@ -1,11 +1,10 @@
 {
-	"description": "Empty",
-	"id": "/empty",
-	"name": "EmptyAPICall",
-	"sqlfunctype": "jsonb",
-	"sqlfunc": "demo.empty_handler",
+	"description": "Generate PDF",
+	"id": "/generate_pdf",
+	"name": "GeneratePDF",
+	"jsfile": "generate_pdf.js",
 	"type": "query",
-	"validate": "(anumber:i)",
+	"roles": ["guest"],
 	"properties": {
 		"anumber": {"type": "number", "description": "A number"}
 	},

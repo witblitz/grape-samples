@@ -5,9 +5,9 @@ This repository contains a bunch of grape sample apps. Configure your database p
 To run an example:
 - Enter the sample's directory
 - Run: npm install
-- Run: grape-db-setup -r -a ../config.json db.manifest
+- Run: grape-db-setup -r -a ../config.json db/initial.manifest
 - Run: node index.js
-- Browse to http://localhost:7000/
+- Browse to http://localhost:7000/ (or whichever port you set in config.json)
 
 The bgworker example needs additional configuration
 

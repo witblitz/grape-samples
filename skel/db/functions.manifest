@@ -1,0 +1,7 @@
+
+# Load Grape functions
+../app/node_modules/ps-grape/db/functions.manifest
+
+# Load files in function/ directory
+function/
+

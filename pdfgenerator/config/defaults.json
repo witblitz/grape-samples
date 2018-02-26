@@ -1,0 +1,9 @@
+{
+	"process_name": "demo",
+	"port": 7000,
+	"public_directories": ["../app/public/"],
+	"api_directories": ["../app/api/"],
+	"log_directory": "../log/",
+	"xsl_directory": "xsl/",
+	"fop": "/opt/fop-2.2/fop"
+}

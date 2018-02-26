@@ -1,0 +1,15 @@
+{
+  "name": "grape-ui-samples-nodb",
+  "version": "1.0.0",
+  "description": "GrapeUI samples: No Database",
+  "main": "index.js",
+  "dependencies": {
+    "grape-ui": "*",
+    "grape-ui-login": "*",
+    "ps-grape": "1.1.2"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
