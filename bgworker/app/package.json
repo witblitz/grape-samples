@@ -1,0 +1,19 @@
+{
+  "name": "grape-ui-samples-bgworker",
+  "version": "1.0.0",
+  "description": "GrapeUI samples: BGWorker",
+  "main": "index.js",
+  "dependencies": {
+    "grape-tools": "*",
+    "grape-ui": "*",
+    "grape-ui-dashboard": "*",
+    "grape-ui-input-dialog": "*",
+    "grape-ui-login": "*",
+    "grape-ui-processes": "*",
+    "ps-grape": "*"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,11 @@
+{
+	"public_directories": ["public/"],
+	"include": [
+		"node_modules/grape-ui/grape_config.json",
+		"node_modules/grape-sms-server/grape_config.json",
+		"local.json"
+	],
+	"process_name": "grape-sample-sms",
+	"port": 7000,
+	"session_management": true
+}

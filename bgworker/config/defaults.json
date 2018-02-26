@@ -1,0 +1,15 @@
+{
+	"public_directories": [
+		"../public/"
+	],
+	"include": ["../app/node_modules/grape-ui/grape_config.json",
+		"../app/node_modules/grape-ui-login/grape_config.json",
+		"../app/node_modules/grape-ui-dashboard/grape_config.json",
+		"../app/node_modules/grape-ui-input-dialog/grape_config.json",
+		"../app/node_modules/grape-ui-processes/grape_config.json"
+	],
+	"process_name": "grape-sample-bgworker",
+	"port": 7000,
+	"ps_bgworker": "../app/node_modules/grape-tools/ps_bgworker/ps_bgworker",
+	"ps_bgworker_config": "ps_bgworker.conf"
+}
