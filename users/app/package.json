@@ -1,14 +1,14 @@
 {
   "name": "grape-ui-samples-basic",
   "version": "1.0.0",
-  "description": "GrapeUI samples: Basic",
+  "description": "GrapeUI samples: Users",
   "main": "index.js",
   "dependencies": {
-    "grape-ui": "^0.0.4",
-    "grape-ui-login": "^1.0.0",
+    "grape-ui": "*",
+    "grape-ui-login": "*",
     "grape-ui-input-dialog": "*",
     "grape-ui-dashboard": "*",
-    "ps-grape": "^1.0.9"
+    "ps-grape": "*"
   },
   "devDependencies": {},
   "keywords": [],

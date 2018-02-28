@@ -1,0 +1,8 @@
+{
+	"project_name": "GrapeUI Sample: Users",
+	"default_routes": {
+		"guest": "#/login",
+		"admin": "#/admin_home"
+	},
+	"debug": true
+}
