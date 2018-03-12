@@ -6,7 +6,7 @@
   "dependencies": {
     "grape-ui": "*",
     "grape-ui-login": "*",
-    "ps-grape": "1.1.2"
+    "ps-grape": "*"
   },
   "devDependencies": {},
   "keywords": [],

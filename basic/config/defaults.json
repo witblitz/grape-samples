@@ -4,6 +4,6 @@
 		"../app/node_modules/grape-ui/grape_config.json"
 	],
 	"process_name": "grape-sample-basic",
-	"port": 7000,
+	"port": 9000,
 	"log_directory": "../log/"
 }
