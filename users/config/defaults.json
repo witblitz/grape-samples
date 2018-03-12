@@ -3,9 +3,11 @@
 	"include": ["../app/node_modules/grape-ui/grape_config.json",
 		"../app/node_modules/grape-ui-login/grape_config.json",
 		"../app/node_modules/grape-ui-dashboard/grape_config.json",
+		"../app/node_modules/grape-ui-user-account/grape_config.json",
 		"../app/node_modules/grape-ui-input-dialog/grape_config.json"
 	],
 	"process_name": "grape-sample-users",
-	"port": 7000,
-	"debug": true
+	"port": 9000,
+	"debug": true,
+	"instances": 5
 }

@@ -1,5 +1,0 @@
-
-@calljson grape.user_save users/user1.json
-@calljson grape.user_save users/user2.json
-@calljson grape.user_save users/user3.json
-@calljson grape.user_save users/pietie.json

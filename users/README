@@ -1,0 +1,11 @@
+
+This demo app tries to cover all of the user-related functionality in Grape.
+
+This includes exposing users on an LDAP server.
+
+To run this sample app, make sure ../config.json is proplerly set up.
+
+Create the DB with: grape-db-setup -r -a ../config.json db/initial.manifest
+
+Log in with user xlu, xia123
+

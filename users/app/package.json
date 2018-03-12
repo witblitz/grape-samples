@@ -4,10 +4,13 @@
   "description": "GrapeUI samples: Users",
   "main": "index.js",
   "dependencies": {
+    "grape-ldap-server": "*",
     "grape-ui": "*",
-    "grape-ui-login": "*",
-    "grape-ui-input-dialog": "*",
     "grape-ui-dashboard": "*",
+    "grape-ui-input-dialog": "*",
+    "grape-ui-login": "*",
+    "grape-ui-user-account": "*",
+    "grape-ui-register-default": "*",
     "ps-grape": "*"
   },
   "devDependencies": {},

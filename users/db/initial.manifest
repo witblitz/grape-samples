@@ -4,6 +4,6 @@
 # Load functions
 functions.manifest
 
-# Save user
-@calljson grape.user_save user.json
+# Save users
+../userdata/users.manifest
 
