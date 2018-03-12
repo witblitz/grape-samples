@@ -1,0 +1,9 @@
+{
+	"email_templates": ["email_templates/"],
+	"public_directories": ["public/"],
+	"port": 4000,
+	"process_name": "emailer",
+	"include": [
+		"node_modules/grape-ui/config.json"
+	]
+}

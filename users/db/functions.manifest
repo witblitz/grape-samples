@@ -2,6 +2,9 @@
 # Load Grape functions
 ../app/node_modules/ps-grape/db/functions.manifest
 
+# Load LDAP functions and views
+../app/node_modules/grape-ldap-server/db/initial.manifest
+
 # Load files in function/ directory
 function/
 

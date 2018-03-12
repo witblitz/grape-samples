@@ -1,20 +1,17 @@
 
+# Grape Examples
 
-This repository contains a bunch of grape sample apps. Configure your database parameters in config.json (in this directory)
+This repository contains a bunch of grape sample apps. Before running the examples, configure your database parameters in config.json (in this directory).
 
-To run an example:
-- Enter the sample's directory
-- Run: npm install
-- Run: grape-db-setup -r -a ../config.json db/initial.manifest
-- Run: node index.js
-- Browse to http://localhost:7000/ (or whichever port you set in config.json)
+By default, all the examples will run on port 9000. 
 
-The bgworker example needs additional configuration
+See the README.md file of each example for more information. Some of them might require more configuration.
+
 
 
 
 api/
-	Contains a bunch of examples of API calls and validation
+	Contains a bunch of examples of different API calls and input validation
 
 basic/
 	Contains a very basic application

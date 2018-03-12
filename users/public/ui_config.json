@@ -4,5 +4,6 @@
 		"guest": "#/login",
 		"admin": "#/admin_home"
 	},
+	"secure_login": true,
 	"debug": true
 }
