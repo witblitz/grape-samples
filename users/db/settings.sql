@@ -1,4 +1,4 @@
 
 
---SELECT grape.set_value('service_name', '');
+SELECT grape.set_value('service_name', 'demousersystem');
 

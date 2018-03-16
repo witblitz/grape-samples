@@ -12,9 +12,17 @@
 		"pull": "right"
 	},
 	{
+		"name": "Account",
+		"render": "window.render_user_account_name",
+		"href": "#/grape-ui/my-account",
+		"visible_roles": ["all"],
+		"pull": "right"
+	},
+
+	{
 		"name": "Grape Dashboard",
 		"visible_roles": "admin",
 		"href": "#/grape-ui/grape_settings/",
-		"pull": "right"
+		"pull": "left"
 	}
 ]

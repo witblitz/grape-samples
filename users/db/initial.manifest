@@ -10,3 +10,5 @@ functions.manifest
 # Save users
 ../userdata/users.manifest
 
+settings.sql
+

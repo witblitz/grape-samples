@@ -1,0 +1,8 @@
+{
+	"name": "AcceptFile",
+	"description": "Saves file somewhere",
+	"method": "POST",
+	"url": "/file/upload",
+	"jsfile": "accept_file.js",
+	"roles": ["guest"]
+}

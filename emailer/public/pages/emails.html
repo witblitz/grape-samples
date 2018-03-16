@@ -1,2 +1,10 @@
 <h1>Emails</h1>
 Send <select class=""></select> to <input type="text" /> (email address).
+
+<h2>Attachments</h2>
+<upload_bar params="
+	placeHolderText: 'Upload File', 
+	description: 'document',
+	url: '/file/upload',
+	after_upload: $root.page.file_uploaded"></upload_bar>
+

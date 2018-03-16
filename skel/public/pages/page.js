@@ -15,11 +15,11 @@ var DemoPage = function(bindings) {
 	this.self = self;
 	this.bindings = bindings;
 	this.viewModel = new DemoPageViewModel(this);
-	this.name = 'EmailsPage';
+	this.name = 'DemoPage';
 
 	//Event (Post/After): Load once
 	this.init = function() {
-		document.title = "Email Page";
+		document.title = "Demo Page";
 	};
 
 	//Event (Post/After): Refresh page data
@@ -31,16 +31,12 @@ var DemoPage = function(bindings) {
 	this.teardown = function() {
 	};
 
-	this.file_uploaded = function(res) {
-		console.log(res);
-		alert('yay');
-	};
 };
 
 //Assign Page(HTML/JS) to Grape
-window.Grape.route('[/]emails', {
+window.Grape.route('[/]page', {
 	page_class: DemoPage,
-	file: __DIRNAME__ + '/emails.html'
+	file: __DIRNAME__ + '/page.html'
 });
 
 })();

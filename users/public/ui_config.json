@@ -1,8 +1,8 @@
 {
 	"project_name": "GrapeUI Sample: Users",
 	"default_routes": {
-		"guest": "#/login",
-		"admin": "#/admin_home"
+		"guest": "#/grape-ui/login",
+		"admin": "#/grape-ui/grape_settings/users"
 	},
 	"secure_login": true,
 	"debug": true

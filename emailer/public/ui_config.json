@@ -1,0 +1,12 @@
+{
+	"project_name": "Grape Sample Emails",
+	"default_routes": {
+		"guest": "#/emails"
+	},
+	"navbar": "/navbar.json",
+	"debug": true,
+	"date_format": "YYYY/MM/DD",
+	"currency_symbol": "R",
+	"date_time_format": "YYYY/MM/DD HH:mm",
+	"secure_login": true
+}
