@@ -1,1 +1,7 @@
-node_modules/ps-grape/db/initial.manifest
+../app/node_modules/ps-grape/db/initial.manifest
+../app/node_modules/grape-email-sender/db/initial.manifest
+
+functions.manifest
+
+settings.sql
+

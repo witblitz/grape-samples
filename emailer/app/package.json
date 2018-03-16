@@ -1,0 +1,16 @@
+{
+  "name": "grape-ui-samples-emails",
+  "version": "1.0.0",
+  "description": "GrapeUI samples: Emails",
+  "main": "index.js",
+  "dependencies": {
+    "grape-ui": "*",
+    "grape-ui-upload-bar": "*",
+    "grape-email-sender": "*",
+    "ps-grape": "*"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

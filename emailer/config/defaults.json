@@ -1,6 +1,6 @@
 {
 	"api_directories": ["../app/api"],
-	"email_templates": ["email_templates/"],
+	"email_template_directories": ["email_templates/"],
 	"public_directories": ["../public/"],
 	"port": 9000,
 	"process_name": "emailer",

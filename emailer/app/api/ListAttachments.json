@@ -1,0 +1,6 @@
+{
+	"method": "GET",
+	"url": "/list_attachments",
+	"roles": ["guest"],
+	"jsfile": "list_attachments.js"
+}

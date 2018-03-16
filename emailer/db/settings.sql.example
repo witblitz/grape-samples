@@ -1,0 +1,10 @@
+
+
+SELECT grape.set_value ('smtp.hostname', 'mail.platsoft.net');
+SELECT grape.set_value ('smtp.port', '465');
+SELECT grape.set_value ('smtp.username', '');
+SELECT grape.set_value ('smtp.password', '');
+SELECT grape.set_value ('smtp.from', 'Testing <info@platsoft.net>');
+SELECT grape.set_value ('smtp.secure', 'true');
+
+

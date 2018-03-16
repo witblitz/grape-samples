@@ -1,6 +1,7 @@
 {
 	"include": [
 		"../app/node_modules/grape-ui/grape_config.json",
+		"../app/node_modules/grape-email-sender/grape_config.json",
 		"../app/node_modules/grape-ui-upload-bar/grape_config.json"
 	]
 }

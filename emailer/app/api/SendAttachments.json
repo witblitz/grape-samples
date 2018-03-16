@@ -1,0 +1,7 @@
+{
+	"method": "POST",
+	"url": "/send_attachments",
+	"roles": ["guest"],
+	"jsfile": "send_attachments.js",
+	"validate": "(recipient:s,name:s,templatename:s)"
+}

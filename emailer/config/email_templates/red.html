@@ -1,0 +1,67 @@
+<html>
+<header>
+	<style type="text/css">
+		body {
+			font-family: 'Helvetica';
+			font-weight: 400;
+			text-rendering: optimizeLegibility; 
+			-webkit-font-smoothing: antialiased; 
+			-moz-osx-font-smoothing: grayscale;
+		}
+
+		table {
+			width: 900px;
+			height: 395px;
+			border: 1px solid #EFEFEF;
+			box-shadow: 0px 0px 12px #BFBFBF;
+		}
+
+		p {
+			line-height: 150%;
+		}
+
+		.body_email {
+			background-color: #FFFFFF;
+			color: #7F7F7F;
+			padding-left: 35px;
+			padding-top: 15px;
+			padding-right: 35px;
+		}
+
+
+	</style>
+</header>
+
+<body>
+	<table border="0" align="center" cellpadding="0" cellspacing="0">
+		<tbody>
+
+			<!-- Header -->
+			<tr style="padding:0px; margin:0px; background-color:#5cb85c;">
+				<td style="padding-left: 35px; padding-top: 5px; padding-bottom: 5px; margin: 0px;">
+					<span style="font-size: 14pt; color: #FFFFFF; text-transform: uppercase; font-weight: 500;">Your Attachments</span>
+				</td>
+				<td align="right" style="padding-left: 10px; padding-top: 0px; padding-bottom: 0px; margin: 0px;">
+					
+				</td>
+			</tr>
+
+			<!-- Body -->
+			<tr>
+				<td class="body_email" colspan="2">
+					<p>Hi <%= name %>,</p>
+
+					<p>
+					Please find your files attached.
+					</p>
+
+					<!-- Email Signature -->
+					<p style="padding-top: 10px;">
+						Regards, <br />
+					</p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
