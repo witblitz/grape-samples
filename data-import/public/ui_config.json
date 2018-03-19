@@ -1,0 +1,13 @@
+{
+	"project_name": "Grape Sample Data Import",
+	"default_routes": {
+		"guest": "#/grape-ui/login",
+		"admin": "#/grape-ui/data_import/"
+	},
+	"navbar": "/navbar.json",
+	"debug": true,
+	"date_format": "YYYY/MM/DD",
+	"currency_symbol": "R",
+	"date_time_format": "YYYY/MM/DD HH:mm",
+	"secure_login": true
+}

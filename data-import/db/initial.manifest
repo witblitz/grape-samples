@@ -1,0 +1,15 @@
+# Load grape tables and functions
+../app/node_modules/ps-grape/db/initial.manifest
+
+# Load functions
+functions.manifest
+
+# Load users from users sample
+../../users/userdata/users.manifest
+
+schema/schema.sql
+
+data/settings.sql
+
+../../users/userdata/users.manifest
+
