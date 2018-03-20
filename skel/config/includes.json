@@ -1,3 +1,5 @@
 {
-	"include": []
+	"include": [
+		"../app/node_modules/grape-ui/grape_config.json"
+	]
 }
