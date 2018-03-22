@@ -1,5 +1,5 @@
 {
-	"process_name": "demo",
+	"process_name": "demo-api",
 	"port": 9000,
 	"public_directories": [],
 	"api_directories": ["../app/api/"],

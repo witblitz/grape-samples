@@ -1,4 +1,5 @@
 {
+	"base_directory": "../",
 	"public_directories": ["../public/"],
 	"include": ["../app/node_modules/grape-ui/grape_config.json",
 		"../app/node_modules/grape-ui-login/grape_config.json",

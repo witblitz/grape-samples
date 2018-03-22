@@ -1,10 +1,10 @@
 {
 	"description": "Empty",
-	"id": "/empty/:anumber",
+	"url": "/empty/:anumber",
 	"name": "EmptyAPICall",
 	"sqlfunctype": "jsonb",
 	"sqlfunc": "demo.empty_handler",
-	"type": "query",
+	"method": "GET",
 	"validate": "(anumber:i)",
 	"properties": {
 		"anumber": {"type": "number", "description": "A number"}

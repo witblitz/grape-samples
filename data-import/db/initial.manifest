@@ -1,3 +1,4 @@
+
 # Load grape tables and functions
 ../app/node_modules/ps-grape/db/initial.manifest
 
