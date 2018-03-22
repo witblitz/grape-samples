@@ -3,5 +3,5 @@
 
 functions.manifest
 
-settings.sql
+@calljsonb grape.load_settings ../config/settings.json
 
