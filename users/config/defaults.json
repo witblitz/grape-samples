@@ -8,7 +8,7 @@
 		"../app/node_modules/grape-ui-user-account/grape_config.json",
 		"../app/node_modules/grape-ui-input-dialog/grape_config.json"
 	],
-	"process_name": "grape-sample-users",
+	"process_name": "grape-demo-users",
 	"port": 9000,
 	"debug": true,
 	"instances": 5
