@@ -8,4 +8,5 @@ error_process.sql
 external_process.sql
 slow_process.sql
 
+@calljsonb grape.load_settings ../config/grape_settings.json
 

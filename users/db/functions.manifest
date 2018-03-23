@@ -6,5 +6,5 @@
 ../app/node_modules/grape-ldap-server/db/initial.manifest
 
 # Load files in function/ directory
-function/
+# function/
 
