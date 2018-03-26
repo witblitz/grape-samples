@@ -1,0 +1,7 @@
+
+../app/node_modules/ps-grape/db/initial.manifest
+
+../app/node_modules/grape-sms-server/initial.manifest
+
+@calljsonb grape.load_settings ../config/grape_settings.json
+

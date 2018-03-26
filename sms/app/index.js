@@ -4,8 +4,8 @@ var grape_sms_server = require('grape-sms-server');
 var grape_nxtsms_provider = require('grape-nxtsms-provider');
 
 var app = new grape(
-	"defaults.json", 
-	"../config.json"
+	"../config/defaults.json", 
+	"../../config.json"
 );
 
 app.addWorker({
