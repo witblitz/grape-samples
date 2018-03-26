@@ -10,7 +10,7 @@
 		"../app/node_modules/grape-ui-processes/grape_config.json"
 	],
 	"process_name": "grape-sample-bgworker",
-	"port": 9000,
+	"port": 9001,
 	"ps_bgworker": "../app/node_modules/grape-tools/ps_bgworker/ps_bgworker",
 	"ps_bgworker_config": "ps_bgworker.conf"
 }

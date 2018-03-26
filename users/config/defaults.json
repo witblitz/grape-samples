@@ -11,5 +11,7 @@
 	"process_name": "grape-demo-users",
 	"port": 9000,
 	"debug": true,
-	"instances": 5
+	"instances": 5,
+	"sslcert": "cert/public.crt",
+	"sslkey": "cert/private.key"
 }

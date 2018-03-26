@@ -4,5 +4,6 @@
 		"guest": "#/grape-ui/login",
 		"admin": "#/grape-ui/processes"
 	},
-	"debug": true
+	"debug": true,
+	"secure_login": true
 }
