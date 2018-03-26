@@ -5,3 +5,5 @@
 # Load files in function/ directory
 function/
 
+data-import/
+

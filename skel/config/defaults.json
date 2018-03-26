@@ -2,8 +2,8 @@
 	"base_directory": "../",
 	"process_name": "demo",
 	"port": 9000,
-	"public_directories": [],
-	"api_directories": [],
+	"public_directories": ["../public"],
+	"api_directories": ["../app/api/"],
 	"log_directory": "../log/",
 	"include": ["includes.json"]
 }

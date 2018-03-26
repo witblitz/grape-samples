@@ -12,5 +12,5 @@ schema/schema.sql
 
 data/settings.sql
 
-../../users/userdata/users.manifest
+data-import/
 
