@@ -1,0 +1,11 @@
+{
+  "name": "grape-samples",
+  "version": "0.0.1",
+  "description": "Grape Samples",
+  "author": "Hans Lombard <hans@platsoft.net>",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "scripts": {}
+}

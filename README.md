@@ -16,23 +16,17 @@ api/
 basic/
 	Contains a very basic application
 
-bgworker/
+processes/
 	Contains an application with ps_bgworker modules installed and some sample processes
 
 custom_worker/
-	Contains an application with a custom worker process attached to it [TODO]
+	Contains an application with a custom worker process attached to it
 
 dav/
 	Showcase for grape-dav [TODO]
 
 emailer/
 	Showcase for grape's email sending functionality
-
-ldapserver/
-	Showcase for exposing users on LDAP
-
-nodb/
-	Project with no DB
 
 pdfgenerator/
 	Showcase for Grape PDF generation
@@ -42,5 +36,8 @@ skel/
 
 sms/
 	Showcase for grape-sms-server
+
+users/
+	Showcase for user management functionalities
 
 
