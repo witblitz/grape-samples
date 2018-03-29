@@ -1,0 +1,17 @@
+{
+	"description": "Same Path Post",
+	"url": "/same/path",
+	"name": "EmptyAPICall",
+	"sqlfunctype": "jsonb",
+	"sqlfunc": "demo.empty_handler",
+	"method": "POST",
+	"roles": ["guest"],
+	"result": {
+		"type": "object",
+		"properties": {
+			"status": {"enum": ["ERROR", "OK"]},
+			"message": {"type": "string", "description": "Error description"},
+			"code": {"type": "number", "description": "Error code"}
+		}
+	}
+}

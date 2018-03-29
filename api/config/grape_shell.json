@@ -1,0 +1,8 @@
+{
+	"include": [
+		"../../config.json", 
+		"defaults.json"],
+	"app_entry_file": "../app/index.js",
+	"path_options": ["app_entry_file"],
+	"shell_prompt": "grape-api"
+}

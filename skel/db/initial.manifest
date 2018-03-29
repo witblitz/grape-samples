@@ -7,5 +7,5 @@ schema/demo.sql
 # Load functions
 functions.manifest
 
-@calljson grape.load_settings ../config/grape_settings.json 
+@calljsonb grape.load_settings ../config/grape_settings.json 
 
