@@ -1,0 +1,6 @@
+{
+	"username": "alice",
+	"password": "alice123",
+	"email": "alice@platsoft.net",
+	"role_names": ["admin"]
+}
