@@ -8,4 +8,6 @@ schema/demo.sql
 functions.manifest
 
 @calljsonb grape.load_settings ../config/grape_settings.json 
+@calljsonb grape.load_settings ../config/local_settings.json 
+#@calljsonb grape.load_settings ../config/smtp_settings.json 
 

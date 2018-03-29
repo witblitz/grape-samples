@@ -1,0 +1,4 @@
+[
+	{ "name": "system_url", "value": "https://localhost:9000/" },
+	{ "name": "service_name", "value": "grape-skel" }
+]
